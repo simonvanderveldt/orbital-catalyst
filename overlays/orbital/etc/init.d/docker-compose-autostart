@@ -1,0 +1,9 @@
+#!/sbin/openrc-run
+
+depend() {
+	after docker net
+}
+
+start() {
+	/usr/local/bin/compose-autostart.py /mnt/share/compose
+}

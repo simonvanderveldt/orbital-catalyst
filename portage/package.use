@@ -1,0 +1,7 @@
+sys-apps/util-linux static-libs
+
+# ZFS
+sys-fs/zfs -rootfs
+
+# Docker
+app-emulation/docker -overlay
